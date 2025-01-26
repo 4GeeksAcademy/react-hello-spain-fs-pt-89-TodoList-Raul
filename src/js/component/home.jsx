@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 
 //create your first component
@@ -27,8 +28,7 @@ const Home = () => {
 			{toDos.map((item, index) => (
 					<li>
 						{item}{" "} 
-						<i 
-							className="fas fa-solid fa-x" 
+						<button 
 							onClick={() =>
 							settoDos(
 								toDos.filter(
@@ -36,7 +36,7 @@ const Home = () => {
 										index != currentIndex
 										)
 									)
-								}></i> 
+								}>Eliminar</button>
 				</li>
 			))}
 		</ul>

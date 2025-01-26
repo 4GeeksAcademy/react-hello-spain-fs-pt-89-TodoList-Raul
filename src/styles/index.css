@@ -33,3 +33,9 @@ input {
 font-size: large;
 
 }
+
+button{
+font-size: small;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+}

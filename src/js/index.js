@@ -11,3 +11,5 @@ import Home from "./component/home.jsx";
 //render your react application
 ReactDOM.createRoot(document.getElementById('app')).render(<Home/>);
 
+//import BootsTrap
+<script src="https://kit.fontawesome.com/4f10f697de.js" crossorigin="anonymous"></script>
